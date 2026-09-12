@@ -1,3 +1,6 @@
 .vercel/
 .sites-runtime/
 *.tar.gz
+
+.vercel
+.env*
