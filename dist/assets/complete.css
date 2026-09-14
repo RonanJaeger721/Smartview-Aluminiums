@@ -34,3 +34,9 @@
 .service-card{min-height:460px}.system figure{height:540px}
 @media(max-width:980px){.hero-grid{grid-template-columns:1fr}.hero-proof{display:grid;grid-template-columns:repeat(3,1fr);padding:8px 16px}.hero-proof p{grid-template-columns:26px 1fr;padding:14px 8px;border-bottom:0;border-right:1px solid rgba(255,255,255,.18)}.hero-proof p:nth-child(3){border-right:0}.hero-proof>a{grid-column:1/-1;grid-template-columns:1fr auto;border-top:1px solid rgba(255,255,255,.18);padding:14px 8px}.hero-proof>a small{grid-row:auto}.hero-proof>a strong{text-align:right}.gallery{grid-template-rows:220px 220px}.system figure{height:480px}}
 @media(max-width:620px){.hero{min-height:900px;background-position:58% center}.hero-proof{grid-template-columns:1fr 1fr}.hero-proof p{border-right:0;border-bottom:1px solid rgba(255,255,255,.18)}.hero-proof p:nth-child(3){display:none}.brand-lockup>img,.site-header .brand-lockup>img{width:42px;height:42px}.gallery{grid-template-rows:260px 190px 190px;gap:10px}.gallery-item,.gallery-item.wide{border-radius:14px 36px 14px 14px}.service-card{min-height:390px}.system figure{height:380px}}
+
+/* Optical logo alignment */
+.site-header .brand-lockup{height:100%;align-items:center}
+.site-header .brand-lockup>img{display:block;flex:0 0 48px;align-self:center;object-fit:contain;object-position:50% 50%;margin:0}
+.site-header .brand-lockup>span{min-height:48px;justify-content:center}
+@media(max-width:620px){.site-header .brand-lockup>img{flex-basis:42px}.site-header .brand-lockup>span{min-height:42px}}
