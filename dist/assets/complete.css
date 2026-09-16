@@ -19,8 +19,8 @@
 .brand-lockup>img{object-fit:contain;object-position:center;background:transparent;border-radius:0}
 .site-header .brand-lockup>img{width:40px;height:40px}.brand-lockup b{font-size:.82rem;letter-spacing:.06em}
 .mobile-drawer nav>a:not(.button){font-size:clamp(1.6rem,7vw,2.8rem);line-height:1.08}
-.jaeger-credit{color:#7f929f;font-size:.62rem;letter-spacing:.04em;transition:color .2s}.jaeger-credit:hover{color:#c9d6df}
-@media(max-width:620px){.hero{min-height:860px;background-position:64% center}.hero:after{background:rgba(4,18,35,.76)}.hero h1{font-size:clamp(2.6rem,12vw,3.7rem)}.hero-grid{margin:0}.site-header .brand-lockup>img{width:36px;height:36px}.footer-bottom{align-items:flex-start}.jaeger-credit{font-size:.58rem}}
+.jaeger-credit{color:#7f929f;font-size:.78rem;line-height:1.5;letter-spacing:.04em;text-decoration:underline;text-underline-offset:.25em;transition:color .2s}.jaeger-credit:hover,.jaeger-credit:focus-visible{color:#c9d6df}.jaeger-credit:focus-visible{outline:2px solid currentColor;outline-offset:4px}
+@media(max-width:620px){.hero{min-height:860px;background-position:64% center}.hero:after{background:rgba(4,18,35,.76)}.hero h1{font-size:clamp(2.6rem,12vw,3.7rem)}.hero-grid{margin:0}.site-header .brand-lockup>img{width:36px;height:36px}.footer-bottom{align-items:flex-start}.jaeger-credit{font-size:.78rem}}
 
 /* Authentic mark, compact gallery and fuller photographic hero */
 .hero{min-height:820px;background:#07182a url(projects/wide-installation.jpg) 54% center/cover no-repeat}
