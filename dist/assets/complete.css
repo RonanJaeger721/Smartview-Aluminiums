@@ -40,3 +40,9 @@
 .site-header .brand-lockup>img{display:block;flex:0 0 48px;align-self:center;object-fit:contain;object-position:50% 50%;margin:0}
 .site-header .brand-lockup>span{min-height:48px;justify-content:center}
 @media(max-width:620px){.site-header .brand-lockup>img{flex-basis:42px}.site-header .brand-lockup>span{min-height:42px}}
+
+/* Search-friendly answers, presented as useful content rather than keyword blocks */
+.seo-faq{display:grid;grid-template-columns:.78fr 1.22fr;gap:clamp(45px,8vw,110px);align-items:start;background:#f4f5f6}
+.seo-faq header{position:sticky;top:110px}.seo-faq header>p:last-child{max-width:520px;color:var(--muted)}
+.faq-list{border-top:1px solid #cbd4d8}.faq-list details{border-bottom:1px solid #cbd4d8;padding:0}.faq-list summary{list-style:none;cursor:pointer;padding:25px 52px 25px 0;position:relative;font:600 clamp(1.15rem,2vw,1.55rem)/1.25 var(--sans);color:var(--deep)}.faq-list summary::-webkit-details-marker{display:none}.faq-list summary:after{content:"+";position:absolute;right:4px;top:21px;font:400 1.8rem var(--sans);color:var(--teal);transition:transform .25s}.faq-list details[open] summary:after{transform:rotate(45deg)}.faq-list details p{margin:0;padding:0 50px 25px 0;color:var(--muted);max-width:720px}
+@media(max-width:800px){.seo-faq{grid-template-columns:1fr}.seo-faq header{position:static}.faq-list summary{padding-right:40px}}
